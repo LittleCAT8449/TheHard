@@ -1,0 +1,5 @@
+/kill
+/xp add @s 12 levels
+/kick
+/kill
+/time set night

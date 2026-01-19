@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Program Files\Microsoft\jdk-25.0.1\bin\java.exe
+ - -jar
+ - C:\Users\24292\.gradle\caches\modules-2\files-2.1\net.neoforged.installertools\installertools\4.0.14\46ab3bb2b666e89975e84948e378d904cdce9700\installertools-4.0.14-fatjar.jar
+ - --task
+ - PROCESS_MINECRAFT_JAR
+ - --input
+ - C:\Users\24292\.gradle\caches\neoformruntime\artifacts\minecraft_26.1-snapshot-2_client.jar
+ - --input
+ - C:\Users\24292\.gradle\caches\neoformruntime\artifacts\minecraft_26.1-snapshot-2_server.jar
+ - --output
+ - ./output.jar
+ - --no-mod-manifest
+--------------------------------------------------------------------------------
+
+Task: PROCESS_MINECRAFT_JAR
+load minecraft_26.1-snapshot-2_server.jar [687ms]
+load minecraft_26.1-snapshot-2_client.jar [756ms]
+Merged 28859 entries (13529 client-only, 0 server-only)
+merge jars [438ms]
+write output file [2166ms]
+overall work [3402ms]
