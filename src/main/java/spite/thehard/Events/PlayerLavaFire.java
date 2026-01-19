@@ -6,7 +6,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import org.apache.logging.log4j.LogManager;
 
-import java.util.logging.Logger;
 
 public class PlayerLavaFire {
 

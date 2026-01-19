@@ -1,6 +1,5 @@
 package spite.thehard.Events;
 
-import net.minecraft.client.multiplayer.ServerData;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.LevelData;
@@ -45,18 +44,12 @@ public class LevelTick {
         }
     }
 
-    /**
-     * 在服务器端触发一场雷暴
-     */
     private static void triggerNightStorm(ServerLevel serverLevel) {
         LevelData worldData = serverLevel.getLevelData();
         serverLevel.setWeatherParameters(0, STORM_DURATION, true, true);
 
     }
 
-    /**
-     * 在黎明时强制结束恶劣天气（可选）
-     */
     private static void clearWeatherAtDawn(ServerLevel serverLevel) {
         if (serverLevel.isRaining() || serverLevel.isThundering()) {
             serverLevel.setWeatherParameters(36000, 0, false, false);

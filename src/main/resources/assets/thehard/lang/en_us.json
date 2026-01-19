@@ -1,5 +1,3 @@
 {
-  "itemGroup.thehard": "Example Mod Tab",
-  "block.thehard.example_block": "Example Block",
-  "item.thehard.example_item": "Example Item"
+  "message.nether.fire": "You need some cold item"
 }

@@ -1,12 +1,9 @@
 package spite.thehard.Events;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.protocol.game.ClientboundMoveEntityPacket;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.animal.fish.Salmon;
-import net.minecraft.world.entity.item.PrimedTnt;
 import net.minecraft.world.entity.monster.Guardian;
 import net.minecraft.world.phys.Vec3;
 import net.neoforged.neoforge.event.entity.living.FinalizeSpawnEvent;

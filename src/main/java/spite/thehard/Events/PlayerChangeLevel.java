@@ -1,10 +1,10 @@
 package spite.thehard.Events;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 
 import java.util.Set;
@@ -52,6 +52,7 @@ public class PlayerChangeLevel {
 
         if (!hasIceItem) {
             player.setRemainingFireTicks(FIRE_TICKS);
+            player.displayClientMessage(Component.translatable("message.nether.fire"), true);
         }
     }
 
